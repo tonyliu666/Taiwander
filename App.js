@@ -80,7 +80,6 @@ function HomeScreen({navigation}){
 //   React.useEffect(()=>{
 //     ,[])
 //   const click_picture=()=>{
-    
 //   }
 //   return(
 //     <View style={styles.container}>
@@ -95,11 +94,6 @@ function DetailScreen (props){
   const [click,setclick] = useState(0)
 
   const AnimateText = useRef(new Animated.Value(0)).current
-  // componentDidMount() {
-  //   opacity_repeat();
-  // }
-  
-
   const [num,setnum] = useState(10000000000)
   const open_gift=()=>{//產生隨機一組電話號碼，可以用動畫的方式產生
     // animate_text(random_number)
