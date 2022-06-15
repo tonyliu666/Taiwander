@@ -99,11 +99,14 @@ function DetailScreen (props){
   const [click,setclick] = useState(0)
 
   const AnimateText = useRef(new Animated.Value(0)).current
-  const [num,setnum] = useState(10000000000)
+  const [num,setnum] = useState('')
   const open_gift=()=>{//產生隨機一組電話號碼，可以用動畫的方式產生
     // animate_text(random_number)
     if (click ==0){
-      var random_number = Math.floor(Math.random()*10000000000)+1
+      var random_number = Math.floor(Math.random()*100000000)+1
+      random_number = random_number.toString()
+      var first = "09"
+      random_number =first+ random_number
       setnum(random_number)
       setclick(1)
       Animated.timing(AnimateText,{
