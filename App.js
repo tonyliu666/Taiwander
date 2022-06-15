@@ -31,7 +31,7 @@ function HomeScreen({navigation}){
     <View style={styles.container}>
       {/*ImageBackground style={{width:450,height:555,flex:1}}*/ }
       <ImageBackground style={{width:450,height:777,flex:1}}source = {require('./登入封面.jpg')} >
-        <Text style={styles.welcome_text}>Welcome to Twainder</Text>
+        <Text style={styles.welcome_text}>Welcome to Taiwander</Text>
         <Text style={styles.ans_text}>Please answer your telephone number</Text>
         
         {/*看可不可以再改善觸控的機制*/ }
