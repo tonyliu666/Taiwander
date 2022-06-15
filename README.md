@@ -1,6 +1,6 @@
 # Twainder
 
-##### This is a first react native project 
+##### This is the react native project about creating the similar "tinder" app  
 
 The technique of this projects contains below : 
 > 1. The difference between useState and useRef(current.focus()):**useRef** can let textInput be reused 
