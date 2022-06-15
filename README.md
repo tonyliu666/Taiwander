@@ -1,4 +1,4 @@
-# Twainder
+# Taiwander
 
 ##### This is the react native project about creating the similar "tinder" app  
 
