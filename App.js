@@ -23,7 +23,7 @@ function HomeScreen({navigation}){
       //重新渲染畫面，恭喜並且開新的配對畫面
       // TextInput.current.focus()
         if(phone[0]==0&&phone[1]==9){
-          Alert.alert("電話格式符合，即將為您配對")
+          Alert.alert("電話格式符合，即將為您配對 ")
           // navigation.navigate("")
           navigation.navigate("Congrats")
         }
